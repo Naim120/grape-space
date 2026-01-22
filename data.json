@@ -1,8 +1,8 @@
 [
   {
-    "id": "cabernetSauvignon",
+    "id": "cabernet_sauvignon",
     "name": "Cabernet Sauvignon",
-    "image": "./images/cabernet-sauvignon.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/32/Red_Mountain_Cabernet_Sauvignon_grapes_from_Hedge_Vineyards.jpg",
     "type": "red",
     "origin": "France (Bordeaux)",
     "additional_information": "Full-bodied red grape with high tannins, dark fruit flavors, and excellent aging potential."
@@ -10,15 +10,15 @@
   {
     "id": "merlot",
     "name": "Merlot",
-    "image": "./images/merlot.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/37/Merlot.jpg",
     "type": "red",
     "origin": "France (Bordeaux)",
     "additional_information": "Soft, approachable red grape with plum and cherry flavors."
   },
   {
-    "id": "pinotNoir",
+    "id": "pinot_noir",
     "name": "Pinot Noir",
-    "image": "./images/pinot-noir.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Grape_near_Sancerre.jpg",
     "type": "red",
     "origin": "France (Burgundy)",
     "additional_information": "Light-bodied red grape known for elegance, red fruit, and high acidity."
@@ -26,7 +26,7 @@
   {
     "id": "syrah",
     "name": "Syrah",
-    "image": "./images/syrah.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Syrah.jpg",
     "type": "red",
     "origin": "France (Rhône Valley)",
     "additional_information": "Bold red grape with pepper, spice, and dark fruit characteristics."
@@ -34,7 +34,7 @@
   {
     "id": "zinfandel",
     "name": "Zinfandel",
-    "image": "./images/zinfandel.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Ripe_Zinfandel_grapes_in_Dry_Creek_Valley-8958.jpg",
     "type": "red",
     "origin": "Croatia",
     "additional_information": "Rich, fruit-forward red grape with jammy flavors and high alcohol."
@@ -42,7 +42,7 @@
   {
     "id": "malbec",
     "name": "Malbec",
-    "image": "./images/malbec.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Malbec_grapes.jpg",
     "type": "red",
     "origin": "France (Southwest)",
     "additional_information": "Deep-colored grape with blackberry flavors and smooth tannins."
@@ -50,7 +50,7 @@
   {
     "id": "sangiovese",
     "name": "Sangiovese",
-    "image": "./images/sangiovese.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/37/Sangiovese_close_up_crop.jpg",
     "type": "red",
     "origin": "Italy",
     "additional_information": "High-acid red grape with cherry and earthy notes."
@@ -58,7 +58,7 @@
   {
     "id": "tempranillo",
     "name": "Tempranillo",
-    "image": "./images/tempranillo.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/af/Tempranillo_Viala_et_Vermorel.jpg",
     "type": "red",
     "origin": "Spain",
     "additional_information": "Medium to full-bodied grape with plum, leather, and tobacco notes."
@@ -66,7 +66,7 @@
   {
     "id": "nebbiolo",
     "name": "Nebbiolo",
-    "image": "./images/nebbiolo.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/91/Close_up_of_Nebbiolo_cluster_in_Italy.jpg",
     "type": "red",
     "origin": "Italy (Piedmont)",
     "additional_information": "High tannin and acidity with floral aromas and long aging potential."
@@ -74,7 +74,7 @@
   {
     "id": "grenache",
     "name": "Grenache",
-    "image": "./images/grenache.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Grenache_N.jpg",
     "type": "red",
     "origin": "Spain",
     "additional_information": "Fruit-driven grape with strawberry and spice flavors."
@@ -82,7 +82,7 @@
   {
     "id": "mourvedre",
     "name": "Mourvèdre",
-    "image": "./images/mourvedre.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Balzac_noir-mourvedre.jpg",
     "type": "red",
     "origin": "Spain",
     "additional_information": "Earthy, structured grape often used in blends."
@@ -90,7 +90,7 @@
   {
     "id": "barbera",
     "name": "Barbera",
-    "image": "./images/barbera.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/25/Barbera_cluster.JPG",
     "type": "red",
     "origin": "Italy",
     "additional_information": "High-acid grape with juicy red fruit flavors."
@@ -98,7 +98,7 @@
   {
     "id": "carmenere",
     "name": "Carménère",
-    "image": "./images/carmenere.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/75/CarmenereW.jpg",
     "type": "red",
     "origin": "France (Bordeaux)",
     "additional_information": "Herbal, spicy red grape now famous in Chile."
@@ -106,7 +106,7 @@
   {
     "id": "gamay",
     "name": "Gamay",
-    "image": "./images/gamay.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/38/Gamay.jpg",
     "type": "red",
     "origin": "France (Beaujolais)",
     "additional_information": "Light-bodied, fresh red grape with bright fruit flavors."
@@ -114,7 +114,7 @@
   {
     "id": "tannat",
     "name": "Tannat",
-    "image": "./images/tannat.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Tannat_Viala_et_Vermorel.jpg",
     "type": "red",
     "origin": "France (Madiran)",
     "additional_information": "Highly tannic grape producing powerful wines."
@@ -122,15 +122,15 @@
   {
     "id": "pinotage",
     "name": "Pinotage",
-    "image": "./images/pinotage.jpg",
+    "image": "https://culturewineco.com/wp-content/uploads/2023/10/pinotage_feature-1200x675.jpg",
     "type": "red",
     "origin": "South Africa",
     "additional_information": "Cross of Pinot Noir and Cinsault with smoky, fruity notes."
   },
   {
-    "id": "tourigaNacional",
+    "id": "touriga_nacional",
     "name": "Touriga Nacional",
-    "image": "./images/touriga-nacional.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Touriga_Nacional.jpg",
     "type": "red",
     "origin": "Portugal",
     "additional_information": "Intense, aromatic grape central to Port wine."
@@ -138,7 +138,7 @@
   {
     "id": "cinsault",
     "name": "Cinsault",
-    "image": "./images/cinsault.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/02/Cinsault.jpg",
     "type": "red",
     "origin": "France",
     "additional_information": "Low-tannin grape often used in blends and rosé."
@@ -146,7 +146,7 @@
   {
     "id": "dolcetto",
     "name": "Dolcetto",
-    "image": "./images/dolcetto.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Dolcetto_grapes.JPG/1936px-Dolcetto_grapes.JPG",
     "type": "red",
     "origin": "Italy",
     "additional_information": "Soft red grape with dark fruit and low acidity."
@@ -154,7 +154,7 @@
   {
     "id": "montepulciano",
     "name": "Montepulciano",
-    "image": "./images/montepulciano.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/52/1_montepulciano_aerial_2024.jpg",
     "type": "red",
     "origin": "Italy",
     "additional_information": "Widely planted grape producing smooth, dark wines."
@@ -162,7 +162,7 @@
   {
     "id": "negroamaro",
     "name": "Negroamaro",
-    "image": "./images/negroamaro.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c0/VIVC8456_NEGRO_AMARO_Cluster_in_the_laboratory_7744.jpg",
     "type": "red",
     "origin": "Italy (Puglia)",
     "additional_information": "Bitter-sweet red grape with dark fruit notes."
@@ -170,15 +170,15 @@
   {
     "id": "bobal",
     "name": "Bobal",
-    "image": "./images/bobal.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Racimo_bobal_PERFECTO.jpg",
     "type": "red",
     "origin": "Spain",
     "additional_information": "High-acid grape with deep color."
   },
   {
-    "id": "alicanteBouschet",
+    "id": "alicante_bouschet",
     "name": "Alicante Bouschet",
-    "image": "./images/alicante-bouschet.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Alicante_Bouschet.jpg",
     "type": "red",
     "origin": "France",
     "additional_information": "Teinturier grape with red flesh."
@@ -186,7 +186,7 @@
   {
     "id": "primitivo",
     "name": "Primitivo",
-    "image": "./images/primitivo.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Ripe_Zinfandel_grapes_in_Dry_Creek_Valley-8958.jpg",
     "type": "red",
     "origin": "Italy",
     "additional_information": "Ripe, powerful grape genetically identical to Zinfandel."
@@ -194,7 +194,7 @@
   {
     "id": "lagrein",
     "name": "Lagrein",
-    "image": "./images/lagrein.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Lagrein_grape_clusters_at_Gisborne_Peak.jpg",
     "type": "red",
     "origin": "Italy (Alto Adige)",
     "additional_information": "Dark, structured grape with blackberry flavors."
@@ -202,7 +202,7 @@
   {
     "id": "xinomavro",
     "name": "Xinomavro",
-    "image": "./images/xinomavro.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Popolka-Xinomavro.jpg",
     "type": "red",
     "origin": "Greece",
     "additional_information": "High-acid grape often compared to Nebbiolo."
@@ -210,7 +210,7 @@
   {
     "id": "frappato",
     "name": "Frappato",
-    "image": "./images/frappato.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Frappato_tareni.jpg",
     "type": "red",
     "origin": "Italy (Sicily)",
     "additional_information": "Light, aromatic red grape with floral notes."
@@ -218,7 +218,7 @@
   {
     "id": "mencia",
     "name": "Mencía",
-    "image": "./images/mencia.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Uva_Mencia.JPG",
     "type": "red",
     "origin": "Spain",
     "additional_information": "Fresh red grape with mineral and red fruit character."
@@ -226,24 +226,23 @@
   {
     "id": "blaufrankisch",
     "name": "Blaufränkisch",
-    "image": "./images/blaufrankisch.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Blaufrankisch_close_up.JPG",
     "type": "red",
     "origin": "Austria",
     "additional_information": "Spicy, high-acid red grape."
   },
-
   {
     "id": "chardonnay",
     "name": "Chardonnay",
-    "image": "./images/chardonnay.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/66/Chardonnay.jpg",
     "type": "white",
     "origin": "France (Burgundy)",
     "additional_information": "Versatile white grape ranging from crisp to richly oaked."
   },
   {
-    "id": "sauvignonBlanc",
+    "id": "sauvignon_blanc",
     "name": "Sauvignon Blanc",
-    "image": "./images/sauvignon-blanc.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/50/Sauvignon_blanc_grapes.jpg",
     "type": "white",
     "origin": "France (Loire Valley)",
     "additional_information": "High-acid grape with citrus and herbal notes."
@@ -251,23 +250,23 @@
   {
     "id": "riesling",
     "name": "Riesling",
-    "image": "./images/riesling.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/76/Riesling_grapes_leaves.jpg",
     "type": "white",
     "origin": "Germany",
     "additional_information": "Aromatic grape capable of dry to sweet styles."
   },
   {
-    "id": "pinotGrigio",
+    "id": "pinot_grigio",
     "name": "Pinot Grigio",
-    "image": "./images/pinot-grigio.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/92/Pinot_Grigio-20201027-RM-114053.jpg",
     "type": "white",
     "origin": "France (Alsace)",
     "additional_information": "Light-bodied grape with pear and citrus flavors."
   },
   {
-    "id": "cheninBlanc",
+    "id": "chenin_blanc",
     "name": "Chenin Blanc",
-    "image": "./images/chenin-blanc.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/03/Rochecorbon_-_Vignoble_-_02.jpg",
     "type": "white",
     "origin": "France (Loire Valley)",
     "additional_information": "High-acid grape used for dry, sweet, and sparkling wines."
@@ -275,7 +274,7 @@
   {
     "id": "viognier",
     "name": "Viognier",
-    "image": "./images/viognier.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Viognier_Viala_et_Vermorel.jpg",
     "type": "white",
     "origin": "France (Rhône Valley)",
     "additional_information": "Floral grape with peach and apricot aromas."
@@ -283,7 +282,7 @@
   {
     "id": "semillon",
     "name": "Sémillon",
-    "image": "./images/semillon.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/25/Gros_Semillon.jpg",
     "type": "white",
     "origin": "France (Bordeaux)",
     "additional_information": "Rich grape often blended with Sauvignon Blanc."
@@ -291,7 +290,7 @@
   {
     "id": "muscat",
     "name": "Muscat",
-    "image": "./images/muscat.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/44/Al_Alam_Palace.jpg",
     "type": "white",
     "origin": "Greece",
     "additional_information": "Highly aromatic grape with floral and grape notes."
@@ -299,7 +298,7 @@
   {
     "id": "gewurztraminer",
     "name": "Gewürztraminer",
-    "image": "./images/gewurztraminer.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Gew%C3%BCrztramine_Viala_et_Vermorelr.jpg",
     "type": "white",
     "origin": "France (Alsace)",
     "additional_information": "Spicy, aromatic grape with lychee aromas."
@@ -307,15 +306,15 @@
   {
     "id": "albarino",
     "name": "Albariño",
-    "image": "./images/albarino.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Cacho.JPG",
     "type": "white",
     "origin": "Spain",
     "additional_information": "Crisp white grape with citrus and saline notes."
   },
   {
-    "id": "grunerVeltliner",
+    "id": "gruner_veltliner",
     "name": "Grüner Veltliner",
-    "image": "./images/gruner-veltliner.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/88/Gruener_Veltliner_Weinsberg_20060909.jpg",
     "type": "white",
     "origin": "Austria",
     "additional_information": "Peppery white grape with high acidity."
@@ -323,7 +322,7 @@
   {
     "id": "vermentino",
     "name": "Vermentino",
-    "image": "./images/vermentino.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Rolle_%28Vermentino%29.jpg",
     "type": "white",
     "origin": "Italy",
     "additional_information": "Fresh white grape with herbal and citrus notes."
@@ -331,7 +330,7 @@
   {
     "id": "trebbiano",
     "name": "Trebbiano",
-    "image": "./images/trebbiano.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/64/Ugni_blanc_Viala_et_Vermorel.jpg",
     "type": "white",
     "origin": "Italy",
     "additional_information": "High-yield grape used widely across Europe."
@@ -339,15 +338,15 @@
   {
     "id": "fiano",
     "name": "Fiano",
-    "image": "./images/fiano.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/43/Fiano.jpg",
     "type": "white",
     "origin": "Italy",
     "additional_information": "Textured white grape with nutty aromas."
   },
   {
-    "id": "soaveGarganega",
+    "id": "garganega",
     "name": "Garganega",
-    "image": "./images/garganega.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Garganega.jpg",
     "type": "white",
     "origin": "Italy",
     "additional_information": "Main grape of Soave wines."
@@ -355,7 +354,7 @@
   {
     "id": "viura",
     "name": "Viura",
-    "image": "./images/viura.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Maccabeo_blanc.jpg",
     "type": "white",
     "origin": "Spain",
     "additional_information": "Fresh white grape also known as Macabeo."
@@ -363,7 +362,7 @@
   {
     "id": "picpoul",
     "name": "Picpoul",
-    "image": "./images/picpoul.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Picpoul.jpg",
     "type": "white",
     "origin": "France",
     "additional_information": "High-acid grape with citrus freshness."
@@ -371,7 +370,7 @@
   {
     "id": "torrontes",
     "name": "Torrontés",
-    "image": "./images/torrontes.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Torrontes.JPG",
     "type": "white",
     "origin": "Argentina",
     "additional_information": "Highly aromatic white grape."
@@ -379,7 +378,7 @@
   {
     "id": "marsanne",
     "name": "Marsanne",
-    "image": "./images/marsanne.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Marsanne_viala_et_vermorel.jpg",
     "type": "white",
     "origin": "France (Rhône Valley)",
     "additional_information": "Full-bodied white grape with nutty notes."
@@ -387,7 +386,7 @@
   {
     "id": "roussanne",
     "name": "Roussanne",
-    "image": "./images/roussanne.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Roussanne.jpg",
     "type": "white",
     "origin": "France (Rhône Valley)",
     "additional_information": "Aromatic grape with floral and herbal character."
