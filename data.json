@@ -1,0 +1,395 @@
+[
+  {
+    "id": "cabernetSauvignon",
+    "name": "Cabernet Sauvignon",
+    "image": "./images/cabernet-sauvignon.jpg",
+    "type": "red",
+    "origin": "France (Bordeaux)",
+    "additional_information": "Full-bodied red grape with high tannins, dark fruit flavors, and excellent aging potential."
+  },
+  {
+    "id": "merlot",
+    "name": "Merlot",
+    "image": "./images/merlot.jpg",
+    "type": "red",
+    "origin": "France (Bordeaux)",
+    "additional_information": "Soft, approachable red grape with plum and cherry flavors."
+  },
+  {
+    "id": "pinotNoir",
+    "name": "Pinot Noir",
+    "image": "./images/pinot-noir.jpg",
+    "type": "red",
+    "origin": "France (Burgundy)",
+    "additional_information": "Light-bodied red grape known for elegance, red fruit, and high acidity."
+  },
+  {
+    "id": "syrah",
+    "name": "Syrah",
+    "image": "./images/syrah.jpg",
+    "type": "red",
+    "origin": "France (Rhône Valley)",
+    "additional_information": "Bold red grape with pepper, spice, and dark fruit characteristics."
+  },
+  {
+    "id": "zinfandel",
+    "name": "Zinfandel",
+    "image": "./images/zinfandel.jpg",
+    "type": "red",
+    "origin": "Croatia",
+    "additional_information": "Rich, fruit-forward red grape with jammy flavors and high alcohol."
+  },
+  {
+    "id": "malbec",
+    "name": "Malbec",
+    "image": "./images/malbec.jpg",
+    "type": "red",
+    "origin": "France (Southwest)",
+    "additional_information": "Deep-colored grape with blackberry flavors and smooth tannins."
+  },
+  {
+    "id": "sangiovese",
+    "name": "Sangiovese",
+    "image": "./images/sangiovese.jpg",
+    "type": "red",
+    "origin": "Italy",
+    "additional_information": "High-acid red grape with cherry and earthy notes."
+  },
+  {
+    "id": "tempranillo",
+    "name": "Tempranillo",
+    "image": "./images/tempranillo.jpg",
+    "type": "red",
+    "origin": "Spain",
+    "additional_information": "Medium to full-bodied grape with plum, leather, and tobacco notes."
+  },
+  {
+    "id": "nebbiolo",
+    "name": "Nebbiolo",
+    "image": "./images/nebbiolo.jpg",
+    "type": "red",
+    "origin": "Italy (Piedmont)",
+    "additional_information": "High tannin and acidity with floral aromas and long aging potential."
+  },
+  {
+    "id": "grenache",
+    "name": "Grenache",
+    "image": "./images/grenache.jpg",
+    "type": "red",
+    "origin": "Spain",
+    "additional_information": "Fruit-driven grape with strawberry and spice flavors."
+  },
+  {
+    "id": "mourvedre",
+    "name": "Mourvèdre",
+    "image": "./images/mourvedre.jpg",
+    "type": "red",
+    "origin": "Spain",
+    "additional_information": "Earthy, structured grape often used in blends."
+  },
+  {
+    "id": "barbera",
+    "name": "Barbera",
+    "image": "./images/barbera.jpg",
+    "type": "red",
+    "origin": "Italy",
+    "additional_information": "High-acid grape with juicy red fruit flavors."
+  },
+  {
+    "id": "carmenere",
+    "name": "Carménère",
+    "image": "./images/carmenere.jpg",
+    "type": "red",
+    "origin": "France (Bordeaux)",
+    "additional_information": "Herbal, spicy red grape now famous in Chile."
+  },
+  {
+    "id": "gamay",
+    "name": "Gamay",
+    "image": "./images/gamay.jpg",
+    "type": "red",
+    "origin": "France (Beaujolais)",
+    "additional_information": "Light-bodied, fresh red grape with bright fruit flavors."
+  },
+  {
+    "id": "tannat",
+    "name": "Tannat",
+    "image": "./images/tannat.jpg",
+    "type": "red",
+    "origin": "France (Madiran)",
+    "additional_information": "Highly tannic grape producing powerful wines."
+  },
+  {
+    "id": "pinotage",
+    "name": "Pinotage",
+    "image": "./images/pinotage.jpg",
+    "type": "red",
+    "origin": "South Africa",
+    "additional_information": "Cross of Pinot Noir and Cinsault with smoky, fruity notes."
+  },
+  {
+    "id": "tourigaNacional",
+    "name": "Touriga Nacional",
+    "image": "./images/touriga-nacional.jpg",
+    "type": "red",
+    "origin": "Portugal",
+    "additional_information": "Intense, aromatic grape central to Port wine."
+  },
+  {
+    "id": "cinsault",
+    "name": "Cinsault",
+    "image": "./images/cinsault.jpg",
+    "type": "red",
+    "origin": "France",
+    "additional_information": "Low-tannin grape often used in blends and rosé."
+  },
+  {
+    "id": "dolcetto",
+    "name": "Dolcetto",
+    "image": "./images/dolcetto.jpg",
+    "type": "red",
+    "origin": "Italy",
+    "additional_information": "Soft red grape with dark fruit and low acidity."
+  },
+  {
+    "id": "montepulciano",
+    "name": "Montepulciano",
+    "image": "./images/montepulciano.jpg",
+    "type": "red",
+    "origin": "Italy",
+    "additional_information": "Widely planted grape producing smooth, dark wines."
+  },
+  {
+    "id": "negroamaro",
+    "name": "Negroamaro",
+    "image": "./images/negroamaro.jpg",
+    "type": "red",
+    "origin": "Italy (Puglia)",
+    "additional_information": "Bitter-sweet red grape with dark fruit notes."
+  },
+  {
+    "id": "bobal",
+    "name": "Bobal",
+    "image": "./images/bobal.jpg",
+    "type": "red",
+    "origin": "Spain",
+    "additional_information": "High-acid grape with deep color."
+  },
+  {
+    "id": "alicanteBouschet",
+    "name": "Alicante Bouschet",
+    "image": "./images/alicante-bouschet.jpg",
+    "type": "red",
+    "origin": "France",
+    "additional_information": "Teinturier grape with red flesh."
+  },
+  {
+    "id": "primitivo",
+    "name": "Primitivo",
+    "image": "./images/primitivo.jpg",
+    "type": "red",
+    "origin": "Italy",
+    "additional_information": "Ripe, powerful grape genetically identical to Zinfandel."
+  },
+  {
+    "id": "lagrein",
+    "name": "Lagrein",
+    "image": "./images/lagrein.jpg",
+    "type": "red",
+    "origin": "Italy (Alto Adige)",
+    "additional_information": "Dark, structured grape with blackberry flavors."
+  },
+  {
+    "id": "xinomavro",
+    "name": "Xinomavro",
+    "image": "./images/xinomavro.jpg",
+    "type": "red",
+    "origin": "Greece",
+    "additional_information": "High-acid grape often compared to Nebbiolo."
+  },
+  {
+    "id": "frappato",
+    "name": "Frappato",
+    "image": "./images/frappato.jpg",
+    "type": "red",
+    "origin": "Italy (Sicily)",
+    "additional_information": "Light, aromatic red grape with floral notes."
+  },
+  {
+    "id": "mencia",
+    "name": "Mencía",
+    "image": "./images/mencia.jpg",
+    "type": "red",
+    "origin": "Spain",
+    "additional_information": "Fresh red grape with mineral and red fruit character."
+  },
+  {
+    "id": "blaufrankisch",
+    "name": "Blaufränkisch",
+    "image": "./images/blaufrankisch.jpg",
+    "type": "red",
+    "origin": "Austria",
+    "additional_information": "Spicy, high-acid red grape."
+  },
+
+  {
+    "id": "chardonnay",
+    "name": "Chardonnay",
+    "image": "./images/chardonnay.jpg",
+    "type": "white",
+    "origin": "France (Burgundy)",
+    "additional_information": "Versatile white grape ranging from crisp to richly oaked."
+  },
+  {
+    "id": "sauvignonBlanc",
+    "name": "Sauvignon Blanc",
+    "image": "./images/sauvignon-blanc.jpg",
+    "type": "white",
+    "origin": "France (Loire Valley)",
+    "additional_information": "High-acid grape with citrus and herbal notes."
+  },
+  {
+    "id": "riesling",
+    "name": "Riesling",
+    "image": "./images/riesling.jpg",
+    "type": "white",
+    "origin": "Germany",
+    "additional_information": "Aromatic grape capable of dry to sweet styles."
+  },
+  {
+    "id": "pinotGrigio",
+    "name": "Pinot Grigio",
+    "image": "./images/pinot-grigio.jpg",
+    "type": "white",
+    "origin": "France (Alsace)",
+    "additional_information": "Light-bodied grape with pear and citrus flavors."
+  },
+  {
+    "id": "cheninBlanc",
+    "name": "Chenin Blanc",
+    "image": "./images/chenin-blanc.jpg",
+    "type": "white",
+    "origin": "France (Loire Valley)",
+    "additional_information": "High-acid grape used for dry, sweet, and sparkling wines."
+  },
+  {
+    "id": "viognier",
+    "name": "Viognier",
+    "image": "./images/viognier.jpg",
+    "type": "white",
+    "origin": "France (Rhône Valley)",
+    "additional_information": "Floral grape with peach and apricot aromas."
+  },
+  {
+    "id": "semillon",
+    "name": "Sémillon",
+    "image": "./images/semillon.jpg",
+    "type": "white",
+    "origin": "France (Bordeaux)",
+    "additional_information": "Rich grape often blended with Sauvignon Blanc."
+  },
+  {
+    "id": "muscat",
+    "name": "Muscat",
+    "image": "./images/muscat.jpg",
+    "type": "white",
+    "origin": "Greece",
+    "additional_information": "Highly aromatic grape with floral and grape notes."
+  },
+  {
+    "id": "gewurztraminer",
+    "name": "Gewürztraminer",
+    "image": "./images/gewurztraminer.jpg",
+    "type": "white",
+    "origin": "France (Alsace)",
+    "additional_information": "Spicy, aromatic grape with lychee aromas."
+  },
+  {
+    "id": "albarino",
+    "name": "Albariño",
+    "image": "./images/albarino.jpg",
+    "type": "white",
+    "origin": "Spain",
+    "additional_information": "Crisp white grape with citrus and saline notes."
+  },
+  {
+    "id": "grunerVeltliner",
+    "name": "Grüner Veltliner",
+    "image": "./images/gruner-veltliner.jpg",
+    "type": "white",
+    "origin": "Austria",
+    "additional_information": "Peppery white grape with high acidity."
+  },
+  {
+    "id": "vermentino",
+    "name": "Vermentino",
+    "image": "./images/vermentino.jpg",
+    "type": "white",
+    "origin": "Italy",
+    "additional_information": "Fresh white grape with herbal and citrus notes."
+  },
+  {
+    "id": "trebbiano",
+    "name": "Trebbiano",
+    "image": "./images/trebbiano.jpg",
+    "type": "white",
+    "origin": "Italy",
+    "additional_information": "High-yield grape used widely across Europe."
+  },
+  {
+    "id": "fiano",
+    "name": "Fiano",
+    "image": "./images/fiano.jpg",
+    "type": "white",
+    "origin": "Italy",
+    "additional_information": "Textured white grape with nutty aromas."
+  },
+  {
+    "id": "soaveGarganega",
+    "name": "Garganega",
+    "image": "./images/garganega.jpg",
+    "type": "white",
+    "origin": "Italy",
+    "additional_information": "Main grape of Soave wines."
+  },
+  {
+    "id": "viura",
+    "name": "Viura",
+    "image": "./images/viura.jpg",
+    "type": "white",
+    "origin": "Spain",
+    "additional_information": "Fresh white grape also known as Macabeo."
+  },
+  {
+    "id": "picpoul",
+    "name": "Picpoul",
+    "image": "./images/picpoul.jpg",
+    "type": "white",
+    "origin": "France",
+    "additional_information": "High-acid grape with citrus freshness."
+  },
+  {
+    "id": "torrontes",
+    "name": "Torrontés",
+    "image": "./images/torrontes.jpg",
+    "type": "white",
+    "origin": "Argentina",
+    "additional_information": "Highly aromatic white grape."
+  },
+  {
+    "id": "marsanne",
+    "name": "Marsanne",
+    "image": "./images/marsanne.jpg",
+    "type": "white",
+    "origin": "France (Rhône Valley)",
+    "additional_information": "Full-bodied white grape with nutty notes."
+  },
+  {
+    "id": "roussanne",
+    "name": "Roussanne",
+    "image": "./images/roussanne.jpg",
+    "type": "white",
+    "origin": "France (Rhône Valley)",
+    "additional_information": "Aromatic grape with floral and herbal character."
+  }
+]
