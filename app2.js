@@ -47,26 +47,42 @@ function init() {
   renderer.setSize(window.innerWidth, window.innerHeight);
   renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
   document.body.appendChild(renderer.domElement);
-  renderer.domElement.style.touchAction = "none";
+  renderer.domElement.style.touchAction = "manipulation";
 
   controls = new OrbitControls(camera, renderer.domElement);
-  controls.enableDamping = true;
-  controls.dampingFactor = 0.08;
-  controls.enablePan = true;
-  controls.rotateSpeed = 0.6;
-  controls.panSpeed = 1.2;
-  controls.screenSpacePanning = true;
 
-  controls.mouseButtons = {
-    LEFT: THREE.MOUSE.ROTATE,
-    MIDDLE: THREE.MOUSE.DOLLY,
-    RIGHT: THREE.MOUSE.PAN
-  };
+// Core behavior
+controls.enableDamping = true;
+controls.dampingFactor = 0.08;
 
-  controls.touches = {
-    ONE: THREE.TOUCH.ROTATE,
-    TWO: THREE.TOUCH.PAN
-  };
+// Zoom (pinch)
+controls.enableZoom = true;
+controls.zoomSpeed = 0.8;
+
+// Pan (move camera)
+controls.enablePan = true;
+controls.panSpeed = 1.2;
+controls.screenSpacePanning = true;
+
+// Rotate
+controls.rotateSpeed = 0.6;
+
+// Limits
+controls.minDistance = 8;
+controls.maxDistance = 60;
+
+// Desktop
+controls.mouseButtons = {
+  LEFT: THREE.MOUSE.ROTATE,
+  MIDDLE: THREE.MOUSE.DOLLY,
+  RIGHT: THREE.MOUSE.PAN
+};
+
+// ✅ MOBILE — THIS IS THE IMPORTANT PART
+controls.touches = {
+  ONE: THREE.TOUCH.PAN,     // 1 finger = move
+  TWO: THREE.TOUCH.DOLLY_ROTATE // 2 fingers = pinch + rotate
+};
 
   // Reduce ambient light intensity or remove it
   scene.add(new THREE.AmbientLight(0xffffff, 0.3)); // Reduced from 1.2
