@@ -83,6 +83,8 @@ controls.touches = {
   ONE: THREE.TOUCH.PAN,     // 1 finger = move
   TWO: THREE.TOUCH.DOLLY_ROTATE // 2 fingers = pinch + rotate
 };
+controls.target.set(0, 2, 0);
+camera.lookAt(controls.target);
 
   // Reduce ambient light intensity or remove it
   scene.add(new THREE.AmbientLight(0xffffff, 0.3)); // Reduced from 1.2
@@ -179,50 +181,71 @@ async function loadData(filter = "all") {
   clearBalls();
   createBalls(filtered);
 }
+function isTooClose(pos, existing, minDist = 2.2) {
+  return existing.some(b => b.position.distanceTo(pos) < minDist);
+}
 
 /* -------------------- BALLS -------------------- */
 function createBalls(items) {
   items.forEach(item => {
-    // Load texture
-    const previewImage = item.type === "red" ? "./images/red.png" : "./images/white.png";
-    const tex = new THREE.TextureLoader().load(previewImage);
-    
-    // Add a subtle glow/emissive effect to the texture
-    const color = item.type === "red" ? 0xff6b6b : 0xf8f9fa; // Brighter colors
-    
-    const geo = new THREE.CircleGeometry(1, 64);
+     // 🎨 Color per grape type
+    const color =
+      item.type === "red"
+        ? 0x7a1c2e   // wine red
+        : 0xf5e6a8;  // champagne white
+
+    // 🍇 3D grape orb
+    const geo = new THREE.SphereGeometry(0.9, 32, 32);
+
     const mat = new THREE.MeshStandardMaterial({
-      map: tex,
-      transparent: true,
-      opacity: 1,
-      emissive: color, // Add emissive color
-      emissiveIntensity: 0.2, // Subtle glow
-      roughness: 0.0, // Less rough for shinier appearance
-      metalness: 0.0 // Slight metallic sheen
+      color,
+      emissive: color,
+      emissiveIntensity: 0.35,
+      roughness: 0.25,
+      metalness: 0.0
     });
+
+
 
     const ball = new THREE.Mesh(geo, mat);
 
-    ball.position.set(
-      (Math.random() - 0.5) * 14,
-      Math.random() * 3 + 1.2,
-      (Math.random() - 0.5) * 6
-    );
+    let tries = 0;
+    let pos = new THREE.Vector3();
+
+    do {
+      pos.set(
+        (Math.random() - 0.5) * 38,
+        (Math.random() - 0.5) * 10 + 2,
+        (Math.random() - 0.5) * 28
+      );
+      tries++;
+    } while (isTooClose(pos, balls) && tries < 20);
+
+    ball.position.copy(pos);
 
     ball.renderOrder = 1;
     ball.material.depthWrite = false;
 
     ball.userData = {
       ...item,
-      originalMaterial: mat,
-      originalEmissiveIntensity: 0.2,
-      highlightColor: item.type === "red" ? 0xff4444 : 0xffffff // Different highlight per type
+      originalMaterial: mat
     };
+    ball.userData.float = {
+      basePosition: ball.position.clone(),
+      speed: 0.4 + Math.random() * 0.6,      // different speed per grape
+      amplitude: 0.3 + Math.random() * 0.4,  // how much it floats
+      offset: Math.random() * Math.PI * 2,   // phase offset
+      driftX: (Math.random() - 0.5) * 0.15,
+      driftZ: (Math.random() - 0.5) * 0.15,
+      rotationSpeed: (Math.random() - 0.5) * 0.002
+    };
+
 
     balls.push(ball);
     scene.add(ball);
   });
 }
+
 
 function clearBalls() {
   balls.forEach(b => scene.remove(b));
@@ -281,7 +304,7 @@ function openModal(ball) {
   const formattedText = `
     <div class="modal-info-line"><strong>Grape name:</strong> ${ball.userData.name}</div></br>
     <div class="modal-info-line"><strong>Type:</strong> ${ball.userData.type.charAt(0).toUpperCase() + ball.userData.type.slice(1)}</div></br>
-    <div class="modal-info-line"><strong>Type:</strong>  ${ball.userData.origin} </div></br>
+    <div class="modal-info-line"><strong>Origin:</strong>  ${ball.userData.origin} </div></br>
     <div class="modal-info-line"><strong>About:</strong> ${ball.userData.additional_information}</div>
   `;
   
@@ -344,17 +367,33 @@ document.querySelectorAll("button[data-filter]").forEach(btn => {
 function animate() {
   requestAnimationFrame(animate);
 
-  balls.forEach(ball => {
-    ball.lookAt(camera.position);
-    
-    // Add pulsing effect for selected ball
-    if (ball === selectedBall && ball.userData.pulseTime !== undefined) {
-      ball.userData.pulseTime += ball.userData.pulseSpeed;
-      const pulse = Math.sin(ball.userData.pulseTime) * ball.userData.pulseIntensity + 0.8;
-      ball.material.emissiveIntensity = pulse;
-      ball.scale.setScalar(1 + (pulse - 0.8) * 0.1); // Subtle scale pulsing
-    }
-  });
+  const time = performance.now() * 0.001;
+
+balls.forEach(ball => {
+  const f = ball.userData.float;
+  if (!f) return;
+
+  // Vertical floating
+  ball.position.y =
+    f.basePosition.y +
+    Math.sin(time * f.speed + f.offset) * f.amplitude;
+
+  // Gentle horizontal drift
+  ball.position.x =
+    f.basePosition.x +
+    Math.cos(time * f.speed * 0.6 + f.offset) * f.driftX;
+
+  ball.position.z =
+    f.basePosition.z +
+    Math.sin(time * f.speed * 0.4 + f.offset) * f.driftZ;
+
+  // Very subtle rotation
+  ball.rotation.z += f.rotationSpeed;
+
+  // Always face camera
+  ball.lookAt(camera.position);
+});
+
 
   controls.update();
   
